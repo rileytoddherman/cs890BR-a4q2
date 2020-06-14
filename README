@@ -1,0 +1,28 @@
+Riley Herman 200352833
+Assignment 4, Question 2
+CS890BR
+
+
+Dependencies:
+    You will need a c++ compiler (I use g++) and cmake installed. Here is a list of libraries that are used:
+        iostream
+        vector
+        set
+        exception
+
+Files:
+    In order of dependency, starting with the least dependent:
+        empty_domain_exception.h 
+        domain.h 
+        csp.h 
+        backtrack.h 
+        main.cpp
+        Makefile
+
+How to use this program:
+    I've included a Makefule for your convenience. The following commands are provided, along with descriptions:
+        make docs: displays this file
+        make clean: removes object files and executable
+        make build: builds the objects and creates the executeable
+        make run: runs the program
+        make snapshot: used in development to place a copy of the program in a temporary folder
